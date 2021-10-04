@@ -1,0 +1,45 @@
+extends ../layouts/base.pug
+
+block content
+    div.mainImageBox
+        div.mainImageBox__img
+        div.mainImageBox__txt
+            p 아리의 태생은 본인조차 모르는 수수께끼입니다.
+            p 아리는 평생 몸에 지니고 있던 한 쌍의 원석을 제외하곤 자신이 속한 바스타야 부족의 과거나 현재를 전혀 알지 못했고, 사실 아리의 가장 오래된 기억은 숀산 북쪽에서 얼음여우 무리와 뛰어다니는 것이었습니다.
+            p 아리도 자신이 얼음여우가 아니라는 사실을 잘 알았지만 얼음여우 무리는 아리를 동족으로 보고 무리의 일원으로 받아들였습니다.
+            p 야생의 포식자로 살아가던 아리는 자신을 둘러싼 숲과 깊이 연결된 듯한 느낌을 받았습니다.
+            p 곧 이것이 자신의 몸과 그 너머 영혼 세계에 흐르는 바스타야의 마법이라는 사실을 깨달은 아리는 가르쳐 주는 이가 없어도 자신만의 방식으로 이 힘을 끌어내는 법을 터득해 주로 사냥에서 반사 신경을 강화하는 데 사용했습니다.
+            p 조심스레 가까이 다가가면 날뛰는 사슴을 진정시킬 수도 있었다. 그렇게 평온을 찾은 사슴은 아리와 얼음여우 무리가 물어도 미동조차 하지 않았습니다.
+    div.descriptionBox
+        p 아리는 암살형 마법 딜러로 빠른 기동성과 긴 사정거리를 이용하여 적을 공격하는 챔피언입니다.
+        p 또한 고정 데미지와 적을 매혹하는 스킬도 가지고 있어서 다양한 방면에서 활약할 수 있습니다.
+    div.screenBox
+        div
+        div
+        div 
+        div 
+    div.videoBox
+        iframe(width="1080" height="480" src="https://www.youtube.com/embed/rYSjBQhFq3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    div.skillBox
+        div.skillBox__img.si1
+        div.skillBox__text
+            p 아리의 스킬이 적에게 적중할 때마다 스킬 한 번당 최대 3번 정기 흡수가 중첩됩니다. 9번 중첩되면 다음번 스킬로 적중한 적 하나당 3/5/9/18(+0.09)의 체력을 회복합니다.
+    div.skillBox
+        div.skillBox__img.si2
+        div.skillBox__text
+            p 아리가 구슬을 던져 40/65/90/115/140 (+0.35AP)의 마법 피해를 주며, 구슬이 돌아올 때 적중한 적에게는 40/65/90/115/140 (+0.35)의 고정 피해를 줍니다.
+            p 아리가 여우불을 방출해 근처의 적에게 40/65/90/115/140 (+0.3AP)의 마법피해를 입히고 이동 속도가 40% 증가했다가 1.5초에 걸쳐 원래대로 돌아옵니다.
+            p 여우불 하나 이상에 적중당한 적은 두 번째 여우불부터 30%의 피해를 입으며, 단일 대상이 입을 수 있는 최대 피해량은 64/104/144/184/224 (+0.48AP)입니다.
+    div.skillBox
+        div.skillBox__img.si3
+        div.skillBox__text
+            p 여우불은 최근 매혹에 적중당한 챔피언을 우선으로, 아리가 최근에 공격한 적을 차선으로 공격합니다. 근처에 최우선 대상이 없으면 적 챔피언을 공격합니다. 체력이 20% 이하인 미니언은 200%의 피해를 입습니다. (사정거리: 725 (기본 700))
+    div.skillBox
+        div.skillBox__img.si4
+        div.skillBox__text
+            p 키스를 날려 첫 번째로 맞는 적에게 60/90/120/150/180 (+0.4AP)의 마법 피해를 줍니다. 홀린 적은 진행 중이던 이동 스킬이 모두 중단되며 1.4/1.55/1.7/1.85/2 초 동안 아리쪽으로 무작정 걸어옵니다.
+    div.skillBox
+        div.skillBox__img.si5
+        div.skillBox__text
+            p 전방으로 민첩하게 질주하며 근처 세명의 적에게 (챔피언 우선) 혼령의 정기를 쏘아내 60/90/120(+0.35AP)의 마법 피해를 줍니다. 10초 안에 최대 세 번까지 사용한 뒤 재사용 대기시간이 적용됩니다. (사정거리: 450)
